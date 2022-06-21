@@ -141,7 +141,7 @@ namespace Jint.Tests.Ecma
         }
     }
         
-    public class Chapter15_SlowTest2 : EcmaTest
+    public class Chapter15_SlowTest3 : EcmaTest
     {
         [Theory(DisplayName = "Ecma Chapter 15 Slow Test 2")]
         [MemberData(nameof(SourceFiles), parameters: new object[] {Chapter15.SlowTest2, false })]
